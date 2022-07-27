@@ -12,7 +12,6 @@ body {
 
 button {
     background-color: #3882F6;
-
     border-radius: 8px;
     height: 35px;
     width: 110px;
@@ -93,11 +92,10 @@ a{
     border: none;
 }
 
-
 /* SECOND CONTAINER */
 
 .first {
-    padding:0px 200px 100px 200px;
+    margin:0px 200px 100px 200px;
 }
 
 .title {
@@ -111,11 +109,15 @@ a{
 .four-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 5%;
 }
 
 .container {
     width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -133,7 +135,7 @@ a{
 /* THIRD CONTAINER */
 
 .second-content {
-    padding: 150px 400px;
+    padding: 10% 25%;
     background-color: #E5E7EB;
 }
 
